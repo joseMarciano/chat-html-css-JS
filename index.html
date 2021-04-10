@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+
+    <link rel="stylesheet" href="./assets/styles/reset.css">
+    <link rel="stylesheet" href="./assets/styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__list">
+            <i class="fas fa-align-left icon"></i>
+        </div>
+        <div class="header__profile">
+            <i class="fas fa-search icon"></i>
+            <img class="img__profile" src="./assets/img/profile1.png" alt="Imagem de perfil do usuário">
+            <span class="header__profile-name"> José Paulo Zanardo Marciano</span>
+        </div>
+    </header>
+
+    <main class="main">
+        <aside class="main__left-menu">
+            <i class="fas fa-chart-pie icon icon-menu"></i>
+            <i class="fas fa-comment-alt icon icon-menu"></i>
+            <i class="fas fa-heart icon icon-menu"></i>
+        </aside>
+        <section class="main__chat-container">
+            <div class="main__chat-header">
+                <span>Chat</span>
+                <button class="btn btn-info">New</button>
+            </div>
+            <div class="main__chat-chats">
+                <div class="main__chats-content">
+                    <img src="./assets/img/profile1.png" class="img__profile">
+                    <div class="main__chats-content-user">
+                        <span class="name__status-user">
+                            <a href="#">Abu abdullah Nugraha</a>
+                            <i class="fas fa-circle icon-status"></i>
+                        </span>
+                        <span class="name__status-typing">
+                            <p>Soluções web</p>
+                            <p>1 min</p>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="main__chat-chats">
+                <div class="main__chats-content">
+                    <img src="./assets/img/profile2.png" class="img__profile">
+                    <div class="main__chats-content-user">
+                        <span class="name__status-user">
+                            <a href="#">Pintinho amarelinho</a>
+                            <i class="fas fa-circle icon-status"></i>
+                        </span>
+                        <span class="name__status-typing">
+                            <p>Cabe aqui na minha mãe, na minha mão</p>
+                            <p>1 min</p>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="main__chat-chats">
+                <div class="main__chats-content">
+                    <img src="./assets/img/profile3.png" class="img__profile">
+                    <div class="main__chats-content-user">
+                        <span class="name__status-user">
+                            <a href="#">Senhor</a>
+                            <i class="fas fa-circle icon-status"></i>
+                        </span>
+                        <span class="name__status-typing">
+                            <p>Ko,Kumaha Project anuta...</p>
+                            <p>1 min</p>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="main__chat-chats">
+                <div class="main__chats-content">
+                    <img src="./assets/img/profile4.png" class="img__profile">
+                    <div class="main__chats-content-user">
+                        <span class="name__status-user">
+                            <a href="#">Sonic</a>
+                            <i class="fas fa-circle icon-status"></i>
+                        </span>
+                        <span class="name__status-typing">
+                            <p>Fast!</p>
+                            <p>1 min</p>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="main__chat-chats">
+                <div class="main__chats-content">
+                    <img src="./assets/img/profile5.jfif" class="img__profile">
+                    <div class="main__chats-content-user">
+                        <span class="name__status-user">
+                            <a href="#">Lula molusco</a>
+                            <i class="fas fa-circle icon-status"></i>
+                        </span>
+                        <span class="name__status-typing">
+                            <p>I hate my live</p>
+                            <p>1 min</p>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main__chat-container container-right">
+            <div class="main__chat-header">
+                <span>
+                    <p>Pintinho amarelinho</p>
+                    <i class="fas fa-circle icon-status"></i>
+                </span>
+                <span class="main__chat-header__icons">
+                    <i class="fas fa-phone-alt"></i>
+                    <i class="fas fa-video"></i>
+                    <i class="fas fa-ellipsis-v"></i>
+                </span>
+            </div>
+            <div class="chat-container">
+                <div style="min-height: 400px; max-height: 400px" data-conversation-container>
+                    <div class="chat-container__chat">
+                        <img class="img__profile" src="./assets/img/profile2.png" alt="Imagem de perfil do usuário">
+                        <span class="phrase-chat-container">
+                            <div style="display: flex; flex-wrap: wrap;" >
+                                <p class="phrase-chat">Hello!! How are you dude?</p>
+                            </div>
+                            <p class="phrase-chat-time">1 hr</p>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="send-message-container">
+                <div class="input-message-container">
+                    <input type="text" placeholder="Type your message..." data-input-message>
+                    <div class="icon-container-input">
+                        <i class="fas fa-paperclip"></i>
+                        <i class="fas fa-paper-plane" data-btn-send></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
